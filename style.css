@@ -1,0 +1,36 @@
+body{
+    text-align: center;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+.centro {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .centro img {
+    width: 100%;
+  }
+  
+  .centro .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    color: black;
+    font-size: 13px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .centro .btn:hover {
+    background-color: black;
+    color: rgb(255, 255, 255);
+  }
