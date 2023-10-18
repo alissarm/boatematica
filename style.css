@@ -7,11 +7,12 @@ body{
 .centro {
     position: relative;
     width: 100%;
-    max-width: 400px;
-  }
+    max-width: 40%;
+    }
   
   .centro img {
     width: 100%;
+
   }
   
   .centro .btn {
